@@ -2,7 +2,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 document = ["Tahir is a shopkeeper.",
 			"Tahir have many product",
-			"Tahir work as a while saler"]
+			"Tahir work as a whole saler"]
 
 # Create a Vectorizer Object
 vectorizer = CountVectorizer()
