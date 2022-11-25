@@ -1,15 +1,15 @@
 from sklearn.feature_extraction.text import CountVectorizer
 
-document = ["How Are You.",
-			"It's Pleasure To Meet You",
-			"So You Work In A Software Company"]
+document = ["Tahir is a shopkeeper.",
+			"Tahir have many product",
+			"Tahir work as a while saler"]
 
 # Create a Vectorizer Object
 vectorizer = CountVectorizer()
 
 vectorizer.fit(document)
 
-# Printing the identified Unique words along with their indices
+# Printing tihe identified Unique words along with their indices
 print("Vocabulary: ", vectorizer.vocabulary_)
 
 # Encode the Document
